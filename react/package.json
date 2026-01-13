@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Tofuserg.github.io/react/",
+  "homepage": "https://Tofuserg.github.io/react-practice/react/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
