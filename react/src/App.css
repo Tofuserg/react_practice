@@ -1,0 +1,475 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: rgba(2, 10, 24, 1);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.app-container {
+    background-color: rgba(2, 10, 24, 1);
+    min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  height: 100px;
+  background: linear-gradient(rgba(2, 10, 24, 0.2), rgba(2, 10, 24, 1));
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 8% 10%;
+    align-items: start;
+}
+
+footer h4 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+}
+
+footer h5 {
+    font-size: 14px;
+    font-weight: 450;
+    opacity: 0.6;
+    font-family: 'Circular Std', sans-serif;
+}
+
+p {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+h3 {
+    color: rgba(58, 104, 184, 1);
+    background-color: transparent;
+    font-weight: 600;
+}
+
+p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+}
+
+img {
+    background: transparent;
+}
+
+#footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#footer-logo h4 {
+    color: rgba(58, 104, 184, 1);
+    background-color: transparent;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+#rocket-logo {
+    width: 632px;
+    height: 634px;
+    flex-wrap: nowrap;
+    margin: -10% 0 0 10%;
+    background: transparent;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 21px 0 0 15%;
+    height: auto;
+    width: auto;
+}
+
+#logo h2 {
+  color: rgba(58, 104, 184, 1);
+  font-weight: 600;
+  font-size: 22.55px;
+  text-wrap: nowrap;
+}
+
+#logo h3 {
+    padding: 11px 0 0 15px;
+    width: 224.05px;
+    height: 31px;
+    font-size: 22.55px;
+    text-wrap: nowrap;
+}
+
+#logos-ipsum {
+    display: flex;
+    padding: 8% 0 0 15%;
+    gap: 30px;
+    justify-content: left;
+}
+
+#buttons {
+    display: flex;
+    gap: 40px;
+    margin-top: 39px;
+    padding-left: 84px;
+    background: transparent;
+}
+
+#buttons button {
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+}
+
+#sign {
+    padding: 15px 0 0 256px;
+}
+
+#sign button {
+    background-color: rgba(58, 104, 184, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 112px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hero-area {
+    display: flex;
+    padding: 160px 0 0 12%;
+    overflow: visible;
+}
+
+#hero-area-btns {
+    display: flex;
+    padding: 10% 0 0 0;
+    gap: 10px;
+}
+
+#hero-area button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(58, 104, 184, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 171px;
+    height: 57px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#hero-area h2 {
+    padding: 4% 0;
+    line-height: 130%;
+    font-size: 55px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+}
+
+#hero-area h3 {
+    font-size: 18px;
+}
+
+#ng-platform {
+    max-width: 60%;
+}
+
+#apply-ai {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 0 0 6%;
+}
+
+#apply-ai h2 {
+    color: rgba(255, 255, 255, 1);
+    line-height: 130%;
+    font-size: 32px;
+}
+
+#apply-ai img {
+    width: 725px;
+    height: 669px;
+    background: transparent;
+}
+
+#apply-ai-text {
+    width: 30%;
+}
+
+#apply-ai-text button {
+    background-color: rgba(58, 104, 184, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 52px;
+    margin: 45px 0 0 0;
+    cursor: pointer;
+}
+ 
+#apply-ai-text h5 {
+    padding: 30px 0 0 0;
+}
+
+#feature {
+    display: flex;
+    background: transparent;
+    gap: 25px;
+    padding: 10% 5% 0 5%;
+    justify-content: center;
+}
+
+#feature img{
+    width: 98px;
+    height: 103px;
+    object-fit: contain;
+}
+
+#feature h3 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+#feature p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+#feature > div {
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    background: linear-gradient(
+        360deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.02)
+    );
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+#about h2 {
+    color: rgba(255, 255, 255, 1);
+    line-height: 130%;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#about h5 {
+    font-size: 16px;
+}
+
+#about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#dots {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 15px;
+}
+
+#social-imgs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dot {
+    background-color: rgba(44, 54, 71, 1);
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.dot-active {
+    background-color: rgba(44, 54, 71, 1);
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 25px 0;
+    gap: 15px;
+}
+
+.info p {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.lang-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.lang-btn {
+    background: transparent;
+    color: white;
+    padding: 35px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.lang-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #020a18;
+    list-style: none;
+    border: none;
+    padding: 10px 0;
+    margin: 5px 0 0 0;
+    min-width: 120px;
+    z-index: 100;
+}
+
+.lang-list li a {
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.lang-list li a:hover {
+    background: rgba(58, 104, 184, 0.2);
+    opacity: 1;
+}
+
+.lang-dropdown:hover .lang-list {
+    display: block;
+}
+
+.author-section {
+    padding: 40px 10%;
+    background-color: rgba(2, 10, 24, 1);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author-content {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.author-content h4 {
+    color: rgba(58, 104, 184, 1);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.author-content h5 {
+    color: white;
+    font-size: 22px;
+    opacity: 1;
+}
+
+.author-links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.author-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.author-links a:hover {
+    opacity: 1;
+    color: rgba(58, 104, 184, 1);
+}
+
+#desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+    background-color: #3a3e4422;
+}
+
+#desc h1 {
+    font-size: 20px;
+    color: rgba(58, 104, 184, 0.901);
+    
+}
+
+#desc p {
+    padding: 2% 0;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.936);
+}
