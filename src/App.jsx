@@ -26,7 +26,7 @@ function App() {
 
       <header>
         <div id="logo">
-          <img src="/imgs/robot.png" alt="Robot Logo" />
+          <img src="imgs/robot.png" alt="Robot Logo" />
           <h2>Artificial intelligence</h2>
         </div>
         <nav id="buttons">
@@ -50,24 +50,24 @@ function App() {
             <div id="hero-area-btns">
               <button type="button">Get Started</button>
               <button type="button">
-                <img src="/imgs/play.png" alt="Play icon" />
+                <img src="imgs/play.png" alt="Play icon" />
                 Watch Video
               </button>
             </div>
           </div>
-          <img id="rocket-logo" src="/imgs/rocket.png" alt="Rocket Illustration" />
+          <img id="rocket-logo" src="imgs/rocket.png" alt="Rocket Illustration" />
         </section>
 
         <div id="logos-ipsum">
-          <img src="/imgs/ipsum/techcoipsum.png" alt="Techco Ipsum" />
-          <img src="/imgs/ipsum/coloripsum.png" alt="Color Ipsum" />
-          <img src="/imgs/ipsum/circleipsum.png" alt="Circle Ipsum" />
-          <img src="/imgs/ipsum/shapeipsum.png" alt="Shape Ipsum" />
+          <img src="imgs/ipsum/techcoipsum.png" alt="Techco Ipsum" />
+          <img src="imgs/ipsum/coloripsum.png" alt="Color Ipsum" />
+          <img src="imgs/ipsum/circleipsum.png" alt="Circle Ipsum" />
+          <img src="imgs/ipsum/shapeipsum.png" alt="Shape Ipsum" />
         </div>
 
         <section id="apply-ai">
           <div>
-            <img src="/imgs/ai.png" alt="AI Interface" />
+            <img src="imgs/ai.png" alt="AI Interface" />
           </div>
           <div id="apply-ai-text">
             <h2>Apply AI, Deep Learning and Data Science to solve</h2>
@@ -79,7 +79,7 @@ function App() {
         <section id="feature">
           {featuresData.map((item) => (
             <div key={item.id}>
-              <img src={`/imgs/cards/welcome${item.id}.png`} alt={`Award Feature ${item.id}`} />
+              <img src={`imgs/cards/welcome${item.id}.png`} alt={`Award Feature ${item.id}`} />
               <h3>{item.title}</h3>
               <p>Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
             </div>
@@ -100,21 +100,21 @@ function App() {
             <p>Lorem ipsum is placeholder previewing layouts and visual mockups.</p>
             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
           </div>
-          <img src="/imgs/about/about1.png" alt="Client Testimonial" />
+          <img src="imgs/about/about1.png" alt="Client Testimonial" />
         </section>
       </main>
 
       <footer>
         <div>
           <div id="footer-logo">
-            <img src="/imgs/robot.png" alt="Footer Logo" />
+            <img src="imgs/robot.png" alt="Footer Logo" />
             <h3>Artificial Intelligence</h3>
           </div>
           <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
           <div className="info">
-            <p><img src="/imgs/info/mail.png" alt="Email" /> Company@gmail.com</p>
-            <p><img src="/imgs/info/phone.png" alt="Phone" /> Phone: (064) 332-1233</p>
-            <p><img src="/imgs/info/gps.png" alt="Location" /> 450 Wall Street, USA, New York</p>
+            <p><img src="imgs/info/mail.png" alt="Email" /> Company@gmail.com</p>
+            <p><img src="imgs/info/phone.png" alt="Phone" /> Phone: (064) 332-1233</p>
+            <p><img src="imgs/info/gps.png" alt="Location" /> 450 Wall Street, USA, New York</p>
           </div>
         </div>
         
@@ -153,14 +153,14 @@ function App() {
           <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
           <p>www.company.com</p>
           <div id="social-imgs">
-            <img src="/imgs/social/facebook.png" alt="Facebook" />
-            <img src="/imgs/social/instagram.png" alt="Instagram" />
-            <img src="/imgs/social/twitter.png" alt="Twitter" />
-            <img src="/imgs/social/linkedin.png" alt="LinkedIn" />
-            <img src="/imgs/social/youtube.png" alt="YouTube" />
+            <img src="imgs/social/facebook.png" alt="Facebook" />
+            <img src="imgs/social/instagram.png" alt="Instagram" />
+            <img src="imgs/social/twitter.png" alt="Twitter" />
+            <img src="imgs/social/linkedin.png" alt="LinkedIn" />
+            <img src="imgs/social/youtube.png" alt="YouTube" />
           </div>
           <div className="lang-dropdown">
-            <img src="/imgs/world.png" alt="Language Selection" />
+            <img src="imgs/world.png" alt="Language Selection" />
             <button className="lang-btn" type="button">English ▾</button>
             <ul className="lang-list">
               <li><a href="#">Ukrainian</a></li>
